@@ -1,0 +1,41 @@
+cualquier mensaje de salida
+
+Mensaje previo a la ejecución de fork   // Proceso hijo
+pid= 4416, global= 7, var= 89           
+
+Mensaje previo a la ejecución de fork   // Proceso padre
+pid= 4415, global= 6, var= 88       
+
+
+cualquier mensaje de salida
+
+Mensaje previo a la ejecución de fork
+pid= 4585, global= 7, var= 89
+Mensaje previo a la ejecución de fork
+pid= 4584, global= 6, var= 88
+
+
+///////////////////////////////////////////////////
+
+
+cualquier mensaje de salida
+
+Mensaje previo a la ejecución de fork
+pid= 4479, global= 7, var= 89
+
+pid= 4478, global= 6, var= 88
+
+
+
+
+cualquier mensaje de salida
+
+Mensaje previo a la ejecución de fork
+pid= 4650, global= 7, var= 89
+
+pid= 4649, global= 6, var= 88
+
+***************************************************
+
+En el segundo caso aunque parezca que el proceso hijo se ejecuta antes lo hace el padre, aunque al tener un sleep se produce la salida del hijo antes
+y es por esto que el hijo muestra la salida de texto y el padre no puesto que ya ha limpiado el buffer.

@@ -1,0 +1,35 @@
+david@david-Aspire-E5-521:~/Dropbox/UGR/2º Grado/1er Cuatrimestre/SSOO/2ANIO/Practicas/SO-P-Todos_MaterialSesiones/Sesion3/src$ ./a.out 3
+
+Jerarquía 1
+
+Jerarquía 1
+Identificador de proceso: 13367
+Identificador del proceso padre: 1
+Identificador de proceso: 13368
+Identificador del proceso padre: 1
+
+Jerarquía 1
+Identificador de proceso: 13369
+Identificador del proceso padre: 13367
+
+david@david-Aspire-E5-521:~/Dropbox/UGR/2º Grado/1er Cuatrimestre/SSOO/2ANIO/Practicas/SO-P-Todos_MaterialSesiones/Sesion3/src$ ./a.out 3
+
+Jerarquía 2
+Identificador de proceso: 13412
+Identificador del proceso padre: 6830
+
+
+Jerarquía 2
+Jerarquía 2
+Identificador de proceso: 13412
+Identificador del proceso padre: 6830
+Identificador de proceso: 13413
+Identificador del proceso padre: 13412
+
+
+***********************************************************************************
+
+Podemos observar que secuencialmente los procesos hijos pasan a ser padres, generándose así una lista enlazada de procesos.
+
+
+
